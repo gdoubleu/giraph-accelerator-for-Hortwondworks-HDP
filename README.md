@@ -1,6 +1,6 @@
-# giraph_accelerator
+# Introduction
 
-This is a two-part bash script for people intereted in compiling Giraph 1.1.0 on Hortonworks (HDP) 2.3. 
+This is a turnkey project for people interested in compiling Giraph 1.1.0 on Hortonworks (HDP) 2.3. It consists in a two-part bash script that does everything for you right from when the HDP Sanbox boots up. 
 
 The first part consists in installing Maven (v3.+), setting up environment variables and cloning Giraph 1.1.0. 
 
