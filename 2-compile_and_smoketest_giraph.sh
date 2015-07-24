@@ -4,6 +4,8 @@ clear
 
 # Compile Giraph
 echo # Compile Giraph
+source $HOME/.bashrc
+cd $GIRAPH_HOME
 mvn -Phadoop_2 -Dhadoop.version=2.6.0 package -e -DskipTests=true
 
 # Create test file
