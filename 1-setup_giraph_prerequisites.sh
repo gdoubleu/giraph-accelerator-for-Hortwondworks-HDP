@@ -14,7 +14,7 @@ echo export PATH=/usr/local/maven/bin:$PATH >> /etc/profile.d/maven.sh
 
 # Export giraph / hadoop 
 echo # Export giraph / hadoop 
-echo export HADOOP_HOME=/usr/hdp/2.3.0.0-2130/hadoop >> $HOME/.bashrc
+echo export HADOOP_HOME=$1 >> $HOME/.bashrc
 echo export GIRAPH_HOME=/usr/local/giraph >> $HOME/.bashrc
 
 # Clone giraph
