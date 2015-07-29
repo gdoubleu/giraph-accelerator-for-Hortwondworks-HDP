@@ -9,7 +9,7 @@ The second part consists in compiling Giraph and smoketesting it by submitting a
 # How to execute these scripts? 
 
 1. SSH to your Sandbox and copy both fles
-2. On your Sandbox, run the first script: sh 1-setup_giraph_prerequisites.sh
+2. On your Sandbox, run the first script: sh 1-setup_giraph_prerequisites.sh <path to hadoop>. For instance: sh 1-setup_giraph_prerequisites.sh /usr/hdp/2.3.0.0-2557/hadoop/
 3. Logout ("logout" at the SSH prompt)
 4. SSH again and run the second script: sh 2-compile_and_smoketest_giraph.sh
 
